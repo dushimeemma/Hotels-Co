@@ -32,7 +32,7 @@ export default function Home() {
   };
 
   return isLoading ? (
-    <Loading />
+    <Loading data-testid='loading' />
   ) : (
     <main className='flex flex-col min-h-screen items-center justify-between p-24'>
       <div className='flex flex-wrap min-h-screen items-center justify-between'>
